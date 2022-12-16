@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "predeploy": "yarn build",
     "homepage": "https://miguebeto.github.io/heroes-spa/",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
