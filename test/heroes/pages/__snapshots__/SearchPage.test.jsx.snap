@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchPage /> debe de mostrarse correactamente con valores por defecto 1`] = `<div />`;

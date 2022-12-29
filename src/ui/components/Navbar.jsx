@@ -4,7 +4,9 @@ import { AuthContext } from "../../auth";
 
 export const Navbar = () => {
   const { user, logout } = useContext(AuthContext);
+
   const navigate = useNavigate();
+  
   const onLogout = () => {
     logout();
     navigate("/login", { replace: true }); //evita que el usuario regrese a la pagina anterior (simulando un logout)
